@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import "./ListFood.css";
-import { deleteFood, getFoodList } from "../../services/foodService";
+import { deleteFood, getFoodList } from "../../services/FoodService";
 
 const ListFood = () => {
   const [list, setList] = useState([]);

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {assets} from '../../assets/assets';
-// import axios from 'axios';
-// import { addFood } from '../../services/foodService';
-// import { toast } from 'react-toastify';
+import axios from 'axios';
+import { addFood } from '../../services/FoodService';
+import { toast } from 'react-toastify';
 
 const AddFood = () => {
     const [image, setImage] = useState(false);
