@@ -108,9 +108,6 @@ cd backend
 ---
 
 ### Frontend (Admin & Customer)
-bash
-Copy
-Edit
 cd frontend-admin
 npm install
 npm start
