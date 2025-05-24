@@ -99,6 +99,22 @@ A full-stack web application for online food ordering and delivery with separate
 - Spring Security handles access control based on roles.
 
 ---
+## 🛠️ How to Run Locally
 
-## 📁 Project Structure
+### Backend
+```bash
+cd backend
+./mvnw spring-boot:run
+---
 
+### Frontend (Admin & Customer)
+bash
+Copy
+Edit
+cd frontend-admin
+npm install
+npm start
+
+cd ../frontend-customer
+npm install
+npm start
