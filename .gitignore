@@ -1,0 +1,24 @@
+# Ignore Maven target build files
+target/
+
+# Ignore jar files
+*.jar
+
+# Ignore logs
+*.log
+
+# Ignore IntelliJ files
+*.iml
+.idea/
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# macOS and Windows OS files
+*.DS_Store
+Thumbs.db
+
+# Ignore environment or secret files
+.env
