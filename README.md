@@ -1,10 +1,10 @@
-# 🍴 Online Food Delivery Application
+# Online Food Delivery Application
 
 A full-stack web application for online food ordering and delivery with separate interfaces for Admin and Customer. Built using **Spring Boot**, **React.js**, **MongoDB**, **JWT Authentication**, and **AWS S3** for image storage.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### 🔧 Backend
 - Java + Spring Boot
@@ -13,7 +13,7 @@ A full-stack web application for online food ordering and delivery with separate
 - AWS S3 (Image Uploads)
 - Razorpay (Payment Gateway)
 
-### 🎨 Frontend
+### Frontend
 - React.js (Admin & Customer Panels)
 - Axios (API Communication)
 - React Router DOM
@@ -21,16 +21,16 @@ A full-stack web application for online food ordering and delivery with separate
 
 ---
 
-## 🧩 Features
+## Features
 
-### 👤 User Authentication
+### User Authentication
 - JWT-based secure login system
 - Role-based access: Admin vs Customer
 - Passwords securely stored and authenticated
 
 ---
 
-### 🧑‍💼 Admin Panel
+### Admin Panel
 - Secure Admin Login
 - **Food Management**:
   - Add, Edit, Delete food items
@@ -43,7 +43,7 @@ A full-stack web application for online food ordering and delivery with separate
 
 ---
 
-### 👥 Customer Panel
+### Customer Panel
 - Registration and Login
 - Browse food items (with filtering/search)
 - Add to Cart / Remove from Cart
@@ -54,7 +54,7 @@ A full-stack web application for online food ordering and delivery with separate
 
 ---
 
-### 🗄️ Backend APIs
+### Backend APIs
 
 #### Authentication
 - `POST /api/auth/register`
@@ -86,20 +86,20 @@ A full-stack web application for online food ordering and delivery with separate
 
 ---
 
-## 💳 Payment Integration (Razorpay)
+## Payment Integration (Razorpay)
 - Razorpay API integration for order payments.
 - Frontend generates a Razorpay order on checkout.
 - Backend verifies payment and finalizes the order.
 
 ---
 
-## 🔐 Security
+## Security
 - All protected endpoints require a valid JWT token.
 - JWT included in headers using Axios for secure communication.
 - Spring Security handles access control based on roles.
 
 ---
-## 🛠️ How to Run Locally
+## How to Run Locally
 
 ### Backend
 ```bash
