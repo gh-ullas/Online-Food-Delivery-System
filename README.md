@@ -80,7 +80,7 @@ A full-stack web application for online food ordering and delivery with separate
 
 ---
 
-## 🌩 AWS S3 Integration
+## AWS S3 Integration
 - Food images are uploaded to AWS S3 using the backend.
 - The image URL is saved in MongoDB and displayed in both admin and customer panels.
 
